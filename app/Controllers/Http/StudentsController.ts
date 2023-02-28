@@ -5,10 +5,10 @@ export default class StudentsController {
   public async index(ctx: HttpContextContract) {
     const students = await Student.all()
     const data = {
-      title: 'Sample',
-      message: 'Lucid',
+      title: 'sample',
+      message: 'lucid',
       data: students
     }
-    return ctx.view.render('samples/index', data)
+    return ctx.view.render('students/index', data)
   }
 }

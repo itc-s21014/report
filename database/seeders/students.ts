@@ -11,6 +11,10 @@ export default class extends BaseSeeder {
       {
         name: 'shunsuke',
         code: 's21030',
+      },
+      {
+        name: 'airin',
+        code: 's21031',
       }
     ])
   }
